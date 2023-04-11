@@ -1,0 +1,72 @@
+body{
+    background-image: linear-gradient( hsl(273, 75%, 66%), hsl(240, 73%, 65%)) ;
+}
+p{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+h1{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    width: 75%;
+    height: 500px;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    margin: 7% auto;
+}
+
+.image{
+    position: relative;
+    width: 100%;
+    background: url("assets/bg-pattern-desktop.svg"),url("assets/illustration-woman-online-desktop.svg");
+    background-size: 750px, 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: -340px, -72px;
+    background-position-y: -203px, top;
+}
+
+.box{
+    position: absolute;
+    top:160px;
+    left: -92px;
+}
+/* The questionaire */
+
+.questionaire{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+/* NB: CHANGE OPACITY OF THE OTHER QUESTIONS */
+.questionaire-2-answer{ 
+    opacity: 0.5;
+}
+#viewed-question{
+    font-weight: bold;
+}
+.questionaire div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .questionaire p{
+    margin-right: 10px;
+} */
+.questionaire-2{
+    
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.rotated-icon{
+    rotate: 180deg;
+}
